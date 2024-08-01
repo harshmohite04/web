@@ -1,0 +1,51 @@
+
+.container {
+    height: 100vh;
+  }
+  
+  .navBar {
+    height: 5vmax;
+    background-color: rgb(227, 170, 39);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 0.5vh;
+    box-shadow: 0px 3px #000000;
+  }
+  
+  .logo {
+    margin: 0.5vh 0vw;
+    border-radius: 50%; 
+  }
+  
+  .tabs {
+    padding: 1.5% 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tab {
+    margin: -1vh 2vw;
+    text-decoration: none;
+    color: #222222;
+    font-size: 2vw;
+    transition: color 0.3s;
+  
+  }
+  
+  .tab:hover {
+    color: grey;
+  }
+  
+  .name{
+    color: #000000;
+    font-size: 3vw;
+    padding:0% 10%;
+    font-weight: bold;
+  
+  }
+  .logoClass{
+    display: flex;
+    
+  }
