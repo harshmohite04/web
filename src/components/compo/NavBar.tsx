@@ -1,27 +1,32 @@
-import React from 'react'
-import logo from '../../assets/img/logo.png'
-import AboutUs from '../Page/AboutUs'
-import './NavBar.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/img/logo.png';
+import './NavBar.css';
 
 function NavBar() {
   return (
     <div>
-      <div className="container">
-      <div className="navBar">
-        <div className='logoClass'>
-          <img src={logo} className='logo'/>
-          <div className="name">Innov8ture</div>
-        </div>
-        <div className='tabs'>
-          <a href='../Page/Home.tsx' className='tab'>Home</a>
-          <a href='../Page/AboutUs.tsx' className='tab'>About Us</a>
-          <a href='../Page/Contact.tsx' className='tab'>Contact</a>
-          <a href='../Page/Services.tsx' className='tab'>Services</a>
+      <div className="container" style={{userSelect: 'none'}}>
+        <div className="navBar">
+          <div className='logoClass'>
+            <img src={logo} className='logo' alt="logo" />
+            <div className="name">Innov8ture</div>
+          </div>
+          <div className='tabs'>
+            <Link to='/home' className='tab'>Home</Link>
+            <Link to='/about-us' className='tab'>About Us</Link>
+            <Link to='/contact' className='tab'>Contact</Link>
+            <Link to='/services' className='tab'>Services</Link>
+          </div>
+          <div className='btn'>
+            <div className='btnTxt'>
+              Call Us
+              </div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;

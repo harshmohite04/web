@@ -49,3 +49,18 @@
     display: flex;
     
   }
+  .btn {
+    margin: 1% 0 ;
+    width: 10%;
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.btnTxt{
+  color: #000000;
+  font-size: 1.3vw;
+  font-weight: 700;
+}

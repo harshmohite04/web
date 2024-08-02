@@ -1,10 +1,10 @@
 import React from 'react'
-
+import NavBar from '../compo/NavBar.tsx'
 function Services() {
   return (
-    <div>
-      Services
-    </div>
+   <>
+   <NavBar/>
+   </>
   )
 }
 
