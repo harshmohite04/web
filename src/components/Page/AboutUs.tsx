@@ -3,7 +3,7 @@ import NavBar from '../compo/NavBar.tsx'
 function AboutUs() {
   return (
     <>
-    <NavBar/>
+    
     </>
   )
 }
